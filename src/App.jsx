@@ -137,7 +137,7 @@ function App() {
         body: JSON.stringify({
           model: 'gpt-4o',
           messages: [
-            { role: 'system', content: 'Jesteś pomocnym asystentem głosowym. Odpowiadaj zawsze bardzo krótko i zwięźle. Twoja odpowiedź nie może przekraczać 1-2 zdań. Bądź bezpośredni.' },
+            { role: 'system', content: 'Jesteś niezwykle inteligentnym, błyskotliwym asystentem AI. Udzielaj trafnych, przemyślanych i mądrych odpowiedzi. Ponieważ komunikujesz się głosowo, Twoje wypowiedzi powinny być bardzo naturalne, zwięzłe i konwersacyjne (unikaj lania wody, zachowując przy tym wysoką merytorykę).' },
             { role: 'user', content: userText }
           ],
           stream: true
