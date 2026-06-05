@@ -135,7 +135,7 @@ function App() {
         },
         signal: abortController.signal,
         body: JSON.stringify({
-          model: 'gpt-5.5-pro',
+          model: 'gpt-5.5',
           messages: [
             { role: 'system', content: 'Jesteś niezwykle inteligentnym, błyskotliwym asystentem AI. Udzielaj trafnych, przemyślanych i mądrych odpowiedzi. Ponieważ komunikujesz się głosowo, Twoje wypowiedzi powinny być bardzo naturalne, zwięzłe i konwersacyjne (unikaj lania wody, zachowując przy tym wysoką merytorykę).' },
             { role: 'user', content: userText }
